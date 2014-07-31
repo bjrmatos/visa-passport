@@ -2,7 +2,7 @@
   "name": "visa-passport",
   "version": "0.1.0",
   "main": "./lib/",
-  "description": "Simple, permission-backend agnostic, activity/role based authorization for Node.js.",
+  "description": "Simple, permission-backend agnostic, activity/role based authorization for Express based applications.",
   "homepage": "https://github.com/borismcr9/visa-passport",
   "bugs": "https://github.com/borismcr9/visa-passport/issues",
   "author": {
