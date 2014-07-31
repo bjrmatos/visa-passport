@@ -1,0 +1,27 @@
+ [
+  {
+    "role": "admin",
+    "permissions": [
+      {
+        "resource": "users",
+        "actions": [
+          "view",
+          "create",
+          "edit",
+          "delete"
+        ]
+      }
+    ]
+  },
+  {
+    "role": "special-person",
+    "permissions": [
+      {
+        "resource": "forbidden",
+        "actions": [
+          "view"
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,50 @@
+{
+  "name": "visa-passport",
+  "version": "0.1.0",
+  "main": "./lib/",
+  "description": "Simple, permission-backend agnostic, activity/role based authorization for Node.js.",
+  "homepage": "https://github.com/borismcr9/visa-passport",
+  "bugs": "https://github.com/borismcr9/visa-passport/issues",
+  "author": {
+    "name": "BJR Matos",
+    "email": "bjrmatos@gmail.com",
+    "url": "https://github.com/borismcr9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/borismcr9/visa-passport"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "visa-passport",
+    "express",
+    "connect",
+    "passport",
+    "auth",
+    "authorization",
+    "role",
+    "permission"
+  ],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0",
+    "chai": "~1.9.1",
+    "mocha": "~1.21.2",
+    "morgan": "~1.2.2",
+    "express": "~4.7.2",
+    "jade": "~1.5.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.js"
+  },
+  "dependencies": {
+    "visa-passport-extend": "0.1.x",
+    "underscore": "~1.6.0"
+  }
+}
