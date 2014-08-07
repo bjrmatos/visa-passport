@@ -1,4 +1,6 @@
-# Visa-passport 
+# Visa-passport
+[![Dependencies](https://david-dm.org/borismcr9/visa-passport.png)](https://david-dm.org/borismcr9/visa-passport)
+
 <img src="http://i.imgur.com/21rXfJC.png?1" align="right"/>
 
 Visa-passport is a [Express](http://expressjs.com/)-compatible authorization provider.
